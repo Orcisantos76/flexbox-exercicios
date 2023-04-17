@@ -22,17 +22,24 @@ section{
   flex-basis: 80px;
 }
 
-#section-1{
+#section-1{  
 }
 
 #section-2{
+  flex-grow: .4;
 }
 
 #section-3{
+  flex-grow: .6;/*grow vai redividindo o tamanho da tela entre os elementos*/
 }
 
 #section-4{
+  flex-basis: 200px;/*define o tamanho do item4*/
+  
+  background-color: #28a2d6;
 }
 
 #section-5{
+  order: -1;
+  
 }
